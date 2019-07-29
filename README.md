@@ -25,3 +25,13 @@ Microsoft Office for Excel installed.
 java -jar HaveIBeenPawnd.jar conf.ini
 
 3. After Execution ends then simply launch ReportPawn.xlsx and verify respective outputs
+
+(OR)
+
+If simply single EMail needs to be checked then
+
+2. Go to target folder and open command prompt and run
+java -jar HaveIBeenPawnd.jar conf.ini someothersemailid@emailtest.com
+
+This will simply print result on console if email is pawned or not.
+
